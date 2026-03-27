@@ -5,3 +5,5 @@ jdbc-drivers.xml.new
 .ruff_cache/
 .sisyphus/
 .opencode
+.zed/
+.venv/
