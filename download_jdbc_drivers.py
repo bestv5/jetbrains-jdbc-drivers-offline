@@ -86,7 +86,7 @@ def list_artifacts(root):
         print(f"  {idx:2d}. {artifact_id} ({version_count} 个版本)")
 
     print("=" * 60)
-    print("\n请输入要下载的驱动编号（支持多选）：")
+    print("\n请输入要下载的驱动编号（支持多选,输入0退出）：")
     print("  - 逗号分隔：1,3,5")
     print("  - 范围输入：1-3")
     print("  - 混合使用：1,3-5,7")
@@ -96,12 +96,12 @@ def list_artifacts(root):
     sys.stdout.flush()
 
     user_input = input().strip()
-    
+
     # 当输入0时退出脚本
     if user_input == "0":
         print("退出脚本")
         sys.exit(0)
-        
+
     return user_input, artifact_list
 
 
