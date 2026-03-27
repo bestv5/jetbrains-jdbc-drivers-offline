@@ -2,6 +2,7 @@ jdbc-drivers/
 jdbc-drivers.xml.new
 .ruff_cache/
 .sisyphus/
-.ruff_cache/
 .sisyphus/
-.opencode/
+.opencode
+.zed/
+.venv/
