@@ -1,9 +1,0 @@
-{
-  "languages": {
-    "Python": {
-      "indent_guides": {
-        "line_width": 2,
-      },
-    },
-  },
-}
