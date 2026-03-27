@@ -4,3 +4,4 @@ jdbc-drivers.xml.new
 .sisyphus/
 .ruff_cache/
 .sisyphus/
+.opencode
